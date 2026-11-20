@@ -11,3 +11,29 @@ Write your first greeter script.
 ~~~
 (enc "Bonjour! Toute le monde!")
 ~~~
+
+## Detailed Example
+Determines a character's outfit and makes genetic trait predictions.
+
+~~~clisp
+------------------------------------------------------------------------------
+--                                MC Outfits                                --
+------------------------------------------------------------------------------
+-- Assign a character outfit to Ehena Marie.                                --
+------------------------------------------------------------------------------
+(arc "rouge" "belle" "grande")
+(cor "rose" "belle" "grande")
+(jup "blue" "chien" "grande")
+(sab "braun" "lump" "petite")
+
+------------------------------------------------------------------------------
+--                                 Genetics                                 --
+------------------------------------------------------------------------------
+-- This covers genetic trait prediction by evolving different combination   --
+-- of traits.                                                               --
+------------------------------------------------------------------------------
+(obe3 red_hair green_eyes fair_skin)
+(obe3 braun_hair blue_eyes fair_skin)
+(obe3 blond_hair green_eyes medium_skin)
+(sca)
+~~~
