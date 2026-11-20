@@ -1212,6 +1212,7 @@ def repl
       elsif statement == "z"; sstack = sstack.append(statement)
       elsif statement == " "; sstack = sstack.append(statement)
 
+      ## This is not cryptography, do not use this for anything intended as secure. This is written because I can't get Whitespace Language to work.
       elsif statement ==          "."; sstack = sstack.append(statement)
       elsif statement ==         ".."; sstack = sstack.append(statement)
       elsif statement ==        "..."; sstack = sstack.append(statement)
