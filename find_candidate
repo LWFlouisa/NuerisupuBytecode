@@ -1,3 +1,4 @@
+#!/usr/bin/env ruby
 def find_candidate
   ## Determining user data and user choice.
   value = File.read("_input/user/user_choice.txt").to_s.to_i
